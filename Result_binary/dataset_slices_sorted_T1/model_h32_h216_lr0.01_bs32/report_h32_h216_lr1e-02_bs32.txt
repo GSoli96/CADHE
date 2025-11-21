@@ -1,0 +1,60 @@
+Grid_Search Params
+{
+    "hidden": 32,
+    "hidden2": 16,
+    "lr": 0.01,
+    "batch_size": 32,
+    "val_acc": 0.562962962962963,
+    "loss_plot": "Result/Dataset/dataset_slices_sorted_T1/model_h32_h216_lr0.01_bs32\\loss_h32_h216_lr0.01_bs32.pdf",
+    "model_path": "Result/Dataset/dataset_slices_sorted_T1/model_h32_h216_lr0.01_bs32\\model_h32_h216_lr0.01_bs32.pt"
+}
+
+----------------------------------------
+Test Evaluation Report
+Accuracy:  0.5839
+----------------------------------------
+Weighted
+Precision Weighted: 0.5754
+Recall Weighted: 0.5839
+F1 Score Weighted: 0.5417
+
+----------------------------------------
+Macro
+Precision Macro: 0.5732
+Recall Macro: 0.5471
+F1 Score Macro: 0.5200
+
+----------------------------------------
+Micro
+Precision Micro: 0.5839
+Recall Micro: 0.5839
+F1 Score Micro: 0.5839
+
+----------------------------------------
+Binary
+Precision Binary: 0.5556
+Recall Binary: 0.2500
+F1 Score Binary: 0.3448
+
+----------------------------------------
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      0.84      0.70        77
+           1       0.56      0.25      0.34        60
+
+    accuracy                           0.58       137
+   macro avg       0.57      0.55      0.52       137
+weighted avg       0.58      0.58      0.54       137
+
+----------------------------------------
+
+ Report Epochs
+Epoch 01 | Train Loss: 0.7199 | Val Loss: 0.6915 | Val Acc: 0.5259
+Epoch 02 | Train Loss: 0.6795 | Val Loss: 0.6915 | Val Acc: 0.5259
+Epoch 03 | Train Loss: 0.6775 | Val Loss: 0.6839 | Val Acc: 0.5259
+Epoch 04 | Train Loss: 0.6684 | Val Loss: 0.6483 | Val Acc: 0.5630
+Epoch 05 | Train Loss: 0.6698 | Val Loss: 0.6931 | Val Acc: 0.5111
+Epoch 06 | Train Loss: 0.7169 | Val Loss: 0.6891 | Val Acc: 0.5259
+Epoch 07 | Train Loss: 0.6789 | Val Loss: 0.6889 | Val Acc: 0.5259
+Epoch 08 | Train Loss: 0.6780 | Val Loss: 0.6887 | Val Acc: 0.5259

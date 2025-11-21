@@ -1,0 +1,7 @@
+hidden,hidden2,lr,batch_size,val_acc,loss_plot,early_stopper,model_path
+32,16,0.001,32,0.784688995215311,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.001_bs32\loss_h32_h216_lr0.001_bs32.pdf,37,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.001_bs32\model_h32_h216_lr0.001_bs32.pt
+32,16,0.001,64,0.7081339712918661,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.001_bs64\loss_h32_h216_lr0.001_bs64.pdf,22,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.001_bs64\model_h32_h216_lr0.001_bs64.pt
+32,16,0.01,32,0.7033492822966507,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.01_bs32\loss_h32_h216_lr0.01_bs32.pdf,15,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.01_bs32\model_h32_h216_lr0.01_bs32.pt
+32,16,0.01,64,0.69377990430622,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.01_bs64\loss_h32_h216_lr0.01_bs64.pdf,17,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.01_bs64\model_h32_h216_lr0.01_bs64.pt
+32,16,0.0001,64,0.6267942583732058,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.0001_bs64\loss_h32_h216_lr0.0001_bs64.pdf,48,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.0001_bs64\model_h32_h216_lr0.0001_bs64.pt
+32,16,0.0001,32,0.6172248803827751,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.0001_bs32\loss_h32_h216_lr0.0001_bs32.pdf,28,Result_multy/dataset_slices_sorted/model_h32_h216_lr0.0001_bs32\model_h32_h216_lr0.0001_bs32.pt

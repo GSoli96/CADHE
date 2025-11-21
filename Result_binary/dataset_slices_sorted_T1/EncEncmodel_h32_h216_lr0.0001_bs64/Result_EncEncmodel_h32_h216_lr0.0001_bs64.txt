@@ -1,0 +1,42 @@
+Test Loss: 0.594780
+Accuracy: 0.6131
+----------------------------------------
+Weighted
+Precision Weighted: 0.6364
+Recall Weighted: 0.6131
+F1 Score Weighted: 0.5617
+
+----------------------------------------
+Macro
+Precision Macro: 0.6409
+Recall Macro: 0.5769
+F1 Score Macro: 0.5420
+
+----------------------------------------
+Micro
+Precision Micro: 0.6131
+Recall Micro: 0.6131
+F1 Score Micro: 0.6131
+
+----------------------------------------
+Binary
+Precision Binary: 0.6818
+Recall Binary: 0.2459
+F1 Score Binary: 0.3614
+
+----------------------------------------
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.91      0.72        76
+           1       0.68      0.25      0.36        61
+
+    accuracy                           0.61       137
+   macro avg       0.64      0.58      0.54       137
+weighted avg       0.64      0.61      0.56       137
+
+
+----------------------------------------
+Confusion Matrix:
+[[69  7]
+ [46 15]]

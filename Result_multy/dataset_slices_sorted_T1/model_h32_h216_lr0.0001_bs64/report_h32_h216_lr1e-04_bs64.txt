@@ -1,0 +1,63 @@
+Grid_Search Params
+{
+    "hidden": 32,
+    "hidden2": 16,
+    "lr": 0.0001,
+    "batch_size": 64,
+    "val_acc": 0.5407407407407407,
+    "loss_plot": "Result_multy/dataset_slices_sorted_T1/model_h32_h216_lr0.0001_bs64\\loss_h32_h216_lr0.0001_bs64.pdf",
+    "early_stopper": 8,
+    "model_path": "Result_multy/dataset_slices_sorted_T1/model_h32_h216_lr0.0001_bs64\\model_h32_h216_lr0.0001_bs64.pt"
+}
+
+----------------------------------------
+Test Evaluation Report
+Accuracy:  0.4818
+----------------------------------------
+Weighted
+Precision Weighted: 0.2321
+Recall Weighted: 0.4818
+F1 Score Weighted: 0.3133
+
+----------------------------------------
+Macro
+Precision Macro: 0.1606
+Recall Macro: 0.3333
+F1 Score Macro: 0.2167
+
+----------------------------------------
+Micro
+Precision Micro: 0.4818
+Recall Micro: 0.4818
+F1 Score Micro: 0.4818
+
+----------------------------------------
+Classification Report:
+              precision    recall  f1-score   support
+
+      normal       0.48      1.00      0.65        66
+        mild       0.00      0.00      0.00        62
+      severe       0.00      0.00      0.00         9
+
+    accuracy                           0.48       137
+   macro avg       0.16      0.33      0.22       137
+weighted avg       0.23      0.48      0.31       137
+
+
+----------------------------------------
+Confusion Matrix:
+[[66  0  0]
+ [62  0  0]
+ [ 9  0  0]]
+----------------------------------------
+
+ Report Epochs
+Epoch 01 | Train Loss: 1.0779 | Val Loss: 1.0718 | Val Acc: 0.5407
+Epoch 02 | Train Loss: 1.0769 | Val Loss: 1.0751 | Val Acc: 0.5407
+Epoch 03 | Train Loss: 1.0756 | Val Loss: 1.1225 | Val Acc: 0.5407
+Epoch 04 | Train Loss: 1.0744 | Val Loss: 1.0598 | Val Acc: 0.5407
+Epoch 05 | Train Loss: 1.0725 | Val Loss: 1.0885 | Val Acc: 0.5407
+Epoch 06 | Train Loss: 1.0686 | Val Loss: 1.1122 | Val Acc: 0.5407
+Epoch 07 | Train Loss: 1.0591 | Val Loss: 1.0888 | Val Acc: 0.5407
+Epoch 08 | Train Loss: 1.0479 | Val Loss: 1.0956 | Val Acc: 0.5407
+Early stopping at epoch 8

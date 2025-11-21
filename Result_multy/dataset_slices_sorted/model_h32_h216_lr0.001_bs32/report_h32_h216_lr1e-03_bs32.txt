@@ -1,0 +1,92 @@
+Grid_Search Params
+{
+    "hidden": 32,
+    "hidden2": 16,
+    "lr": 0.001,
+    "batch_size": 32,
+    "val_acc": 0.784688995215311,
+    "loss_plot": "Result_multy/dataset_slices_sorted/model_h32_h216_lr0.001_bs32\\loss_h32_h216_lr0.001_bs32.pdf",
+    "early_stopper": 37,
+    "model_path": "Result_multy/dataset_slices_sorted/model_h32_h216_lr0.001_bs32\\model_h32_h216_lr0.001_bs32.pt"
+}
+
+----------------------------------------
+Test Evaluation Report
+Accuracy:  0.7714
+----------------------------------------
+Weighted
+Precision Weighted: 0.7736
+Recall Weighted: 0.7714
+F1 Score Weighted: 0.7723
+
+----------------------------------------
+Macro
+Precision Macro: 0.7417
+Recall Macro: 0.7449
+F1 Score Macro: 0.7431
+
+----------------------------------------
+Micro
+Precision Micro: 0.7714
+Recall Micro: 0.7714
+F1 Score Micro: 0.7714
+
+----------------------------------------
+Classification Report:
+              precision    recall  f1-score   support
+
+      normal       0.83      0.81      0.82       231
+        mild       0.70      0.74      0.72       141
+      severe       0.69      0.69      0.69        48
+
+    accuracy                           0.77       420
+   macro avg       0.74      0.74      0.74       420
+weighted avg       0.77      0.77      0.77       420
+
+
+----------------------------------------
+Confusion Matrix:
+[[187  37   7]
+ [ 29 104   8]
+ [  8   7  33]]
+----------------------------------------
+
+ Report Epochs
+Epoch 01 | Train Loss: 1.1001 | Val Loss: 0.9766 | Val Acc: 0.5574
+Epoch 02 | Train Loss: 0.9589 | Val Loss: 0.8831 | Val Acc: 0.5574
+Epoch 03 | Train Loss: 0.9054 | Val Loss: 0.8724 | Val Acc: 0.5646
+Epoch 04 | Train Loss: 0.8917 | Val Loss: 0.9028 | Val Acc: 0.5598
+Epoch 05 | Train Loss: 0.8749 | Val Loss: 0.8168 | Val Acc: 0.5670
+Epoch 06 | Train Loss: 0.8592 | Val Loss: 0.8206 | Val Acc: 0.5909
+Epoch 07 | Train Loss: 0.8316 | Val Loss: 0.7881 | Val Acc: 0.5766
+Epoch 08 | Train Loss: 0.8170 | Val Loss: 0.7519 | Val Acc: 0.6244
+Epoch 09 | Train Loss: 0.7824 | Val Loss: 0.7451 | Val Acc: 0.6483
+Epoch 10 | Train Loss: 0.7577 | Val Loss: 0.7225 | Val Acc: 0.6531
+Epoch 11 | Train Loss: 0.7313 | Val Loss: 0.7544 | Val Acc: 0.6579
+Epoch 12 | Train Loss: 0.7167 | Val Loss: 0.7226 | Val Acc: 0.6483
+Epoch 13 | Train Loss: 0.6955 | Val Loss: 0.7136 | Val Acc: 0.6722
+Epoch 14 | Train Loss: 0.6748 | Val Loss: 0.6851 | Val Acc: 0.6890
+Epoch 15 | Train Loss: 0.6398 | Val Loss: 0.6555 | Val Acc: 0.6746
+Epoch 16 | Train Loss: 0.6181 | Val Loss: 0.7170 | Val Acc: 0.6818
+Epoch 17 | Train Loss: 0.6011 | Val Loss: 0.6289 | Val Acc: 0.6986
+Epoch 18 | Train Loss: 0.5802 | Val Loss: 0.6512 | Val Acc: 0.6866
+Epoch 19 | Train Loss: 0.5692 | Val Loss: 0.6273 | Val Acc: 0.7129
+Epoch 20 | Train Loss: 0.5386 | Val Loss: 0.6194 | Val Acc: 0.6962
+Epoch 21 | Train Loss: 0.5424 | Val Loss: 0.6126 | Val Acc: 0.7057
+Epoch 22 | Train Loss: 0.5161 | Val Loss: 0.6138 | Val Acc: 0.7201
+Epoch 23 | Train Loss: 0.4841 | Val Loss: 0.5755 | Val Acc: 0.7297
+Epoch 24 | Train Loss: 0.4652 | Val Loss: 0.6610 | Val Acc: 0.7153
+Epoch 25 | Train Loss: 0.4578 | Val Loss: 0.6028 | Val Acc: 0.7392
+Epoch 26 | Train Loss: 0.4389 | Val Loss: 0.6396 | Val Acc: 0.7584
+Epoch 27 | Train Loss: 0.4013 | Val Loss: 0.5721 | Val Acc: 0.7392
+Epoch 28 | Train Loss: 0.3890 | Val Loss: 0.5458 | Val Acc: 0.7416
+Epoch 29 | Train Loss: 0.3780 | Val Loss: 0.5390 | Val Acc: 0.7560
+Epoch 30 | Train Loss: 0.3653 | Val Loss: 0.5261 | Val Acc: 0.7560
+Epoch 31 | Train Loss: 0.3534 | Val Loss: 0.5646 | Val Acc: 0.7608
+Epoch 32 | Train Loss: 0.3456 | Val Loss: 0.7505 | Val Acc: 0.7368
+Epoch 33 | Train Loss: 0.3521 | Val Loss: 0.5190 | Val Acc: 0.7847
+Epoch 34 | Train Loss: 0.3338 | Val Loss: 0.5340 | Val Acc: 0.7751
+Epoch 35 | Train Loss: 0.3035 | Val Loss: 0.5713 | Val Acc: 0.7656
+Epoch 36 | Train Loss: 0.3016 | Val Loss: 0.5883 | Val Acc: 0.7775
+Epoch 37 | Train Loss: 0.2794 | Val Loss: 0.5994 | Val Acc: 0.7775
+Early stopping at epoch 37

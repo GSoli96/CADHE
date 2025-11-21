@@ -1,0 +1,7 @@
+hidden,hidden2,lr,batch_size,val_acc,loss_plot,model_path
+32,16,0.01,64,0.7862068965517242,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.01_bs64\loss_h32_h216_lr0.01_bs64.pdf,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.01_bs64\model_h32_h216_lr0.01_bs64.pt
+32,16,0.001,64,0.7172413793103448,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.001_bs64\loss_h32_h216_lr0.001_bs64.pdf,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.001_bs64\model_h32_h216_lr0.001_bs64.pt
+32,16,0.001,32,0.6275862068965518,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.001_bs32\loss_h32_h216_lr0.001_bs32.pdf,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.001_bs32\model_h32_h216_lr0.001_bs32.pt
+32,16,0.0001,64,0.6206896551724138,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.0001_bs64\loss_h32_h216_lr0.0001_bs64.pdf,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.0001_bs64\model_h32_h216_lr0.0001_bs64.pt
+32,16,0.01,32,0.6,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.01_bs32\loss_h32_h216_lr0.01_bs32.pdf,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.01_bs32\model_h32_h216_lr0.01_bs32.pt
+32,16,0.0001,32,0.5793103448275863,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.0001_bs32\loss_h32_h216_lr0.0001_bs32.pdf,Result/Dataset/dataset_slices_sorted_Flair/model_h32_h216_lr0.0001_bs32\model_h32_h216_lr0.0001_bs32.pt

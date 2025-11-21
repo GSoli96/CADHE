@@ -1,0 +1,45 @@
+Grid_Search Params
+null
+
+----------------------------------------
+Test Evaluation Report
+Accuracy:  0.7192
+----------------------------------------
+Weighted
+Precision Weighted: 0.7745
+Recall Weighted: 0.7192
+F1 Score Weighted: 0.7180
+
+----------------------------------------
+Macro
+Precision Macro: 0.7355
+Recall Macro: 0.6797
+F1 Score Macro: 0.6809
+
+----------------------------------------
+Micro
+Precision Micro: 0.7192
+Recall Micro: 0.7192
+F1 Score Micro: 0.7192
+
+----------------------------------------
+Classification Report:
+              precision    recall  f1-score   support
+
+      normal       0.89      0.61      0.73        83
+        mild       0.60      0.92      0.73        53
+      severe       0.71      0.50      0.59        10
+
+    accuracy                           0.72       146
+   macro avg       0.74      0.68      0.68       146
+weighted avg       0.77      0.72      0.72       146
+
+
+----------------------------------------
+Confusion Matrix:
+[[51 30  2]
+ [ 4 49  0]
+ [ 2  3  5]]
+----------------------------------------
+
+ Report Epochs

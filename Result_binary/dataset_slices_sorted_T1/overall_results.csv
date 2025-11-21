@@ -1,0 +1,64 @@
+Model,Accuracy,Precision,Recall,F1Score,ConfusionMatrix,Classification Report,Average_Loss
+model_h32_h216_lr0.0001_bs64,0.6131,0.6364,0.6131,0.5617,[69 7]; [46 15],"              precision    recall  f1-score   support
+
+           0       0.60      0.91      0.72        76
+           1       0.68      0.25      0.36        61
+
+    accuracy                           0.61       137
+   macro avg       0.64      0.58      0.54       137
+weighted avg       0.64      0.61      0.56       137
+",0.5948
+model_h32_h216_lr0.001_bs32,0.7007,0.7481,0.7007,0.6719,[72 4]; [37 24],"              precision    recall  f1-score   support
+
+           0       0.66      0.95      0.78        76
+           1       0.86      0.39      0.54        61
+
+    accuracy                           0.70       137
+   macro avg       0.76      0.67      0.66       137
+weighted avg       0.75      0.70      0.67       137
+",0.5162
+model_h32_h216_lr0.01_bs64,0.8321,0.8356,0.8321,0.8301,[69 7]; [16 45],"              precision    recall  f1-score   support
+
+           0       0.81      0.91      0.86        76
+           1       0.87      0.74      0.80        61
+
+    accuracy                           0.83       137
+   macro avg       0.84      0.82      0.83       137
+weighted avg       0.84      0.83      0.83       137
+",0.3711
+Encmodel_h32_h216_lr0.0001_bs64,0.6131,0.6364,0.6131,0.5617,[69 7]; [46 15],"              precision    recall  f1-score   support
+
+           0       0.60      0.91      0.72        76
+           1       0.68      0.25      0.36        61
+
+    accuracy                           0.61       137
+   macro avg       0.64      0.58      0.54       137
+weighted avg       0.64      0.61      0.56       137
+",0.5948
+model_h32_h216_lr0.0001_bs32,0.6058,0.6337,0.6058,0.5450,[70 6]; [48 13],"              precision    recall  f1-score   support
+
+           0       0.59      0.92      0.72        76
+           1       0.68      0.21      0.33        61
+
+    accuracy                           0.61       137
+   macro avg       0.64      0.57      0.52       137
+weighted avg       0.63      0.61      0.55       137
+",0.6004
+model_h32_h216_lr0.001_bs64,0.6788,0.6791,0.6788,0.6716,[61 15]; [29 32],"              precision    recall  f1-score   support
+
+           0       0.68      0.80      0.73        76
+           1       0.68      0.52      0.59        61
+
+    accuracy                           0.68       137
+   macro avg       0.68      0.66      0.66       137
+weighted avg       0.68      0.68      0.67       137
+",0.5372
+model_h32_h216_lr0.01_bs32,0.5985,0.5934,0.5985,0.5812,[59 17]; [38 23],"              precision    recall  f1-score   support
+
+           0       0.61      0.78      0.68        76
+           1       0.57      0.38      0.46        61
+
+    accuracy                           0.60       137
+   macro avg       0.59      0.58      0.57       137
+weighted avg       0.59      0.60      0.58       137
+",0.6052
