@@ -90,6 +90,11 @@ The architecture (see the corresponding figure in the paper) can be summarised a
       - Class 2 → Severe (EDSS > 4)  
 
 All nonlinearities are implemented as quadratic functions, which are compatible with CKKS and avoid non-HE-friendly activations such as ReLU or sigmoid.
+
+---
+###  Application scenario with real data
+![Scenario](images/Scenario.png)
+
 ---
 ### Experimental configuration
 
