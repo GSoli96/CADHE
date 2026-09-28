@@ -206,9 +206,11 @@ By using this dataset and the accompanying code, you agree to cite the following
 
 ```bibtex
 @inproceedings{cirillo2025cadhe,
-  title     = {CADHE: Privacy-Preserving Medical Image Analysis Through Homomorphic Encrypted Convolutional Networks},
-  author    = {Cirillo, S., and Deufemia, V., and Di Biasi, L., and Polese, G., and Solimando, G., and Tortora, G.},
-  booktitle = {TBD},
-  year      = {2025}
+  title={CADHE: privacy-preserving medical image analysis through homomorphic encrypted convolutional networks},
+  author={Cirillo, Stefano and Deufemia, Vincenzo and Di Biasi, Luigi and Polese, Giuseppe and Solimando, Giandomenico and Tortora, Genoveffa},
+  booktitle={2025 IEEE International Conference on Big Data (BigData)},
+  pages={7064--7072},
+  year={2025},
+  organization={IEEE}
 }
 ```
